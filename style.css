@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#background-image { 
+    width: 100%;
+}
+
+#puppy-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-button {
+    /* display: flex; */
+    margin-bottom: 2%;
+}
+
+.single-puppy-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30rem;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 2%;
+    
+}
+
+.puppy-info {
+    background-color: blue;
+    margin-top: 2%;
+}
